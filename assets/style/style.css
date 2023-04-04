@@ -1,0 +1,26 @@
+#to_do {
+  width: 400px;
+  height: 600px;
+  border: 1px dashed rgb(241, 183, 74);
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: bisque;
+  padding: 30px;
+}
+#to_do .top {
+  align-items: center;
+  margin-bottom: 30px;
+}
+#to_do .top .h1 {
+  margin-right: 20px;
+}
+#to_do .context {
+  align-items: center;
+}
+#to_do .box {
+  border: 1px solid orange;
+  margin-top: 10px;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

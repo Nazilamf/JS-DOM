@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+    <link rel="stylesheet" href="./assets/style/style.scss">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="to_do">
+        <div class="top d-flex justify-content-center">
+            <h1>TO DO</h1>
+            <i class="fa-sharp fa-solid fa-circle-check" style="color: #1f5125;"></i>
+
+        </div>
+
+        <div class="context">
+            <input type="text">
+            <button type="button" class="btn btn-warning">SUBMIT</button>
+        </div>
+
+        <h2 class="count"> 0 TASK-iz var</h2>
+
+        <div class="alert alert-success d-none" role="alert">
+            TASK Əlavə olundu!
+        </div>
+
+        <div class="alert1 alert alert-danger d-none" role="alert">
+            TASK Silindi!
+          </div>
+
+        <div id="list"></div>
+
+
+
+    </div>
+
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
